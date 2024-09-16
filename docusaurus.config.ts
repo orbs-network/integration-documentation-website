@@ -3,9 +3,9 @@ import type { Config } from '@docusaurus/types'
 import type * as Preset from '@docusaurus/preset-classic'
 
 const config: Config = {
-  title: 'Orbs Integration Docs',
-  tagline: 'Bringing CeFi level execution to DeFi',
-  favicon: 'img/favicon.ico',
+  title: 'Orbs Integrations',
+  tagline: 'Bringing CeFi-level execution to DeFi',
+  favicon: 'img/orbs-logo.svg',
 
   // Set the production url of your site here
   url: 'https://docs.orbs.com',
@@ -58,10 +58,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Orbs Integration Docs',
+      title: 'Orbs Integrations',
       logo: {
         alt: 'Orbs Logo',
-        src: 'img/logo.svg',
+        src: 'img/orbs-logo.svg',
       },
       items: [
         {
@@ -70,7 +70,6 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/orbs-network',
           label: 'GitHub',
@@ -82,46 +81,20 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Docs',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
           title: 'Community',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/orbs-network',
             },
+            {
+              label: 'Twitter',
+              href: 'https://x.com/orbs_network',
+            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Orbs`,
     },
     prism: {
       theme: prismThemes.github,
